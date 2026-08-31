@@ -1,0 +1,40 @@
+{
+  "source_authority": "direct_user_directive",
+  "source_sha256": "63ffe319d5edb3e83b992b3eca9c8f0763d55728b3d11f9da5220620dd194357",
+  "canonical_trace": {
+    "coordinates": [
+      "x",
+      "y",
+      "z",
+      "w"
+    ],
+    "w_semantics": "measured transit time or latency between actor and peer",
+    "required_context": [
+      "input_mode",
+      "actor",
+      "peer",
+      "observed_at",
+      "route_id"
+    ],
+    "preservation_rule": "retain raw coordinates and derived route observations; transformations append receipts and never overwrite the source trace",
+    "current_adapter": "voice waveform",
+    "future_adapter": "touch digitizer"
+  },
+  "bilateral_match": {
+    "goal": "mutual-value match where both sides can consent, contribute, and benefit",
+    "guard": "no automatic transaction or publication without actor consent and policy pass"
+  },
+  "marketplace_requirements": [
+    "experienced workers can author teachable models from long-lived hands-on knowledge",
+    "dollhouse mall storefront supports model offers and premium direct feedback",
+    "low-code adapter makers can create small services and merchandise workflows",
+    "caseworker and shelter communication can use accessible, consent-aware adapters"
+  ],
+  "network_adapter_status": {
+    "MCP_API_adapter_stack": "PROPOSED",
+    "DNS_allowlist": "PROPOSED",
+    "IPv4_IPv6_interoperation": "PROPOSED",
+    "RGBA_route_representation": "UNRESOLVED_SYMBOLIC_MODEL",
+    "note": "No networking claim is promoted until a concrete schema, threat model, and interoperability test exist."
+  }
+}
